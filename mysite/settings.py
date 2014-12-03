@@ -1,52 +1,20 @@
 import os
+
 gettext = lambda s: s
-"""
-Django settings for mysite project.
 
-For more information on this file, see
-https://docs.djangoproject.com/en/1.6/topics/settings/
-
-For the full list of settings and their values, see
-https://docs.djangoproject.com/en/1.6/ref/settings/
-"""
-
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'q-2*z5+7y&!*!n)^8#2e&=1jo%ekvp+pwr_vbhprk*r=t=u*_i'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-# Application definition
-
-
-
-
-
 ROOT_URLCONF = 'mysite.urls'
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/1.6/topics/i18n/
 
 LANGUAGE_CODE = 'pl'
 
@@ -58,18 +26,16 @@ USE_L10N = True
 
 USE_TZ = True
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.6/howto/static-files/
-
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = 'staticfiles'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'mysite', 'static'),
+    os.path.join(BASE_DIR, 'bower_components'),
+    os.path.join(BASE_DIR, 'node_modules'),
 )
+
 SITE_ID = 1
 
 TEMPLATE_LOADERS = (
@@ -107,9 +73,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'cms.context_processors.cms_settings'
 )
 
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'mysite', 'templates'),
-)
+# TODO: Sprawdź czy działa po wyłączeniu
+# TEMPLATE_DIRS = (
+#     os.path.join(BASE_DIR, 'mysite', 'templates'),
+# )
 
 INSTALLED_APPS = (
     'djangocms_admin_style',
@@ -141,14 +108,18 @@ INSTALLED_APPS = (
     'mysite'
 )
 
+CUSTOM_APPS = (
+    'myapp',
+)
+
+INSTALLED_APPS += CUSTOM_APPS
+
 LANGUAGES = (
-    ## Customize this
     ('pl', gettext('pl')),
     ('en', gettext('en')),
 )
 
 CMS_LANGUAGES = {
-    ## Customize this
     'default': {
         'public': True,
         'hide_untranslated': False,
@@ -173,7 +144,7 @@ CMS_LANGUAGES = {
 }
 
 CMS_TEMPLATES = (
-    ## Customize this
+    # Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right')
@@ -184,6 +155,24 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = {
-    'default':
-        {'ENGINE': 'django.db.backends.sqlite3', 'NAME': 'project.db', 'HOST': 'localhost', 'USER': '', 'PASSWORD': '', 'PORT': ''}
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'project.db',
+        'HOST': 'localhost',
+        'USER': '',
+        'PASSWORD': '',
+        'PORT': ''
+    }
 }
+
+if DEBUG:
+    INSTALLED_APPS += ('debug_toolbar',)
+    MIDDLEWARE_CLASSES += ('debug_toolbar.middleware.DebugToolbarMiddleware',)
+    DEBUG_TOOLBAR_PATCH_SETTINGS = False
+    INTERNAL_IPS = '127.0.0.1'
+
+# heroku host db stuff
+
+# DATABASES = {}
+# import dj_database_url
+# DATABASES['default'] = dj_database_url.config()

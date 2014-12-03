@@ -1,0 +1,391 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dire",
+				"verbose_directive	AngularJS"
+			],
+			[
+				"angular",
+				"angular	AngularJS"
+			],
+			[
+				"filter",
+				"verbose_$filter	AngularJS"
+			],
+			[
+				"scop",
+				"$scope	AngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "manage.py",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 312.0,
+		"selected_items":
+		[
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"Snippet: Lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"angular",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta angu",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"git",
+				"Github: Issues"
+			],
+			[
+				"",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"error",
+				"Anaconda: Show error list"
+			],
+			[
+				"aut",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"anaconda python",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"c",
+				"File: Close All"
+			],
+			[
+				"set syntax: txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"vim",
+				"Set Syntax: VimL"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dotcat/Dokumenty/Projekty/Python/seed"
+	],
+	"file_history":
+	[
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/manage.py",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/README.md",
+		"/home/dotcat/Dokumenty/Projekty/Todo/todo.txt",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/mysite/settings.py",
+		"/home/dotcat/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/dotcat/Dokumenty/Projekty/IdeFiles/Python/seed/mysite/templates/sidebar_left.html",
+		"/home/dotcat/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/dotcat/Dokumenty/Projekty/IdeFiles/Python/seed/README.md",
+		"/home/dotcat/Dokumenty/Projekty/IdeFiles/Python/seed/mysite/settings.py",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/.idea/scopes/scope_settings.xml",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/.idea/encodings.xml",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/.idea/vcs.xml",
+		"/home/dotcat/.config/sublime-text-3/Packages/User/Github Tools.sublime-settings",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/.idea/seed.iml",
+		"/home/dotcat/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/dotcat/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/dotcat/Dokumenty/Projekty/Todo/next.txt",
+		"/home/dotcat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dotcat/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/dotcat/Dokumenty/Projekty/Tasks/done.txt",
+		"/home/dotcat/Dokumenty/Projekty/Tasks/next.txt",
+		"/home/dotcat/Dokumenty/Projekty/Tasks/todo.txt",
+		"/home/dotcat/Dokumenty/Projekty/Tasks/workon.txt",
+		"/home/dotcat/Dokumenty/Projekty/Tasks/todo1.txt",
+		"/home/dotcat/todo.txt",
+		"/home/dotcat/Dokumenty/Projekty/Java/AngularJsThinksterTutorial/package.json",
+		"/home/dotcat/done.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"installed",
+			"directory",
+			"packages",
+			"@NaukaAngularjs",
+			"am",
+			"AngularJS",
+			"am"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@AngularJS"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "manage.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "seed.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mana",
+				"manage.py"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"side",
+				"mysite/templates/sidebar_left.html"
+			],
+			[
+				"settings",
+				"mysite/settings.py"
+			],
+			[
+				"ne",
+				"next.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dokumenty/Projekty/Python/taskcalc/task_cals.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/opt/sublime_text"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
