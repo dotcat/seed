@@ -1,3 +1,4 @@
+# coding=utf8
 import os
 
 gettext = lambda s: s
@@ -73,7 +74,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'cms.context_processors.cms_settings'
 )
 
-# TODO: Sprawdź czy działa po wyłączeniu
+# TODO: Sprawdz czy dziala po wyłaczeniu
 # TEMPLATE_DIRS = (
 #     os.path.join(BASE_DIR, 'mysite', 'templates'),
 # )
@@ -144,10 +145,9 @@ CMS_LANGUAGES = {
 }
 
 CMS_TEMPLATES = (
-    # Customize this
-    ('fullwidth.html', 'Fullwidth'),
-    ('sidebar_left.html', 'Sidebar Left'),
-    ('sidebar_right.html', 'Sidebar Right')
+    ('mysite/fullwidth.html', 'Fullwidth'),
+    ('mysite/sidebar_left.html', 'Sidebar Left'),
+    ('mysite/sidebar_right.html', 'Sidebar Right')
 )
 
 CMS_PERMISSION = True

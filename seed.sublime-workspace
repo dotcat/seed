@@ -23,21 +23,21 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "manage.py",
-			"settings":
-			{
-				"buffer_size": 249,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 312.0,
+		"height": 292.0,
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
 			[
 				"close",
 				"Project: Close"
@@ -147,7 +147,7 @@
 	},
 	"distraction_free":
 	{
-		"menu_visible": true,
+		"menu_visible": false,
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
@@ -160,10 +160,13 @@
 	],
 	"file_history":
 	[
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/mysite/settings.py",
+		"/home/dotcat/Dokumenty/Projekty/Python/pean/pean-web/pean/settings.py",
 		"/home/dotcat/Dokumenty/Projekty/Python/seed/manage.py",
+		"/home/dotcat/Dokumenty/Projekty/Python/pean/pean-web/pean/settings-dev.py",
+		"/home/dotcat/Dokumenty/Projekty/Python/seed/mysite/templates/sidebar_left.html",
 		"/home/dotcat/Dokumenty/Projekty/Python/seed/README.md",
 		"/home/dotcat/Dokumenty/Projekty/Todo/todo.txt",
-		"/home/dotcat/Dokumenty/Projekty/Python/seed/mysite/settings.py",
 		"/home/dotcat/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
 		"/home/dotcat/Dokumenty/Projekty/IdeFiles/Python/seed/mysite/templates/sidebar_left.html",
 		"/home/dotcat/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
@@ -190,7 +193,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -221,7 +224,7 @@
 		[
 			"@AngularJS"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -230,50 +233,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "manage.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -328,6 +289,10 @@
 		"selected_items":
 		[
 			[
+				"setting",
+				"mysite/settings.py"
+			],
+			[
 				"mana",
 				"manage.py"
 			],
@@ -373,6 +338,7 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"_vintageous_last_buffer_search": "DATABASES",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
